@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="/src/styles/main.css">
+  <title>Markich OS</title>
+</head>
+<body>
+
+  <include-view path="views/welcomescreen"></include-view>
+  <div class="desktop-group">
+    <include-view path="views/topmenu"></include-view>
+    <include-view path="views/desktop"></include-view>
+    <include-view path="views/bottompanel"></include-view>
+  </div>
+
+
+  <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+  <script src="/src/helpers.js"></script>
+
+  <script src="/src/components/welcomescreen.js"></script>
+
+  <script src="/src/index.js"></script>
+</body>
+</html>

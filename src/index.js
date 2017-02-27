@@ -17,9 +17,5 @@ $(document).ready(() => {
     }
   });
 
-  $('*').click((e) => {
-    // if (!$(this).hasClass('submenu-item') && !$(this).hasClass('menu-item'))
-    //   console.log(true);//$('.submenu-item').hide();
-    //console.log(e.target);
-  });
+  window.todoApp = new Todo({});
 });

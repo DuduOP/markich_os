@@ -1,0 +1,23 @@
+{
+  "name": "markich_os",
+  "version": "1.0.0",
+  "description": "b-day gift",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DuduOP/markich_os.git"
+  },
+  "keywords": [
+    "purejs",
+    "native"
+  ],
+  "author": "Aleh Belski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DuduOP/markich_os/issues"
+  },
+  "homepage": "https://github.com/DuduOP/markich_os#readme"
+}
